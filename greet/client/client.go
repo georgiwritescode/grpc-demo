@@ -22,7 +22,7 @@ func main() {
 }
 
 func doUnary(c greetpb.GreetServiceClient) {
-	log.Println("Start a unary RPC...")
+	log.Println("Start an unary RPC...")
 	greeting := greetpb.Greeting{
 		FirstName: "Georgi",
 		LastName:  "Ivanov",
